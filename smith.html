@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initia l-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+/* ---------- Global Styles ---------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ---------- Sections ---------- */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* ---------- Skills ---------- */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>SMITH GAIKWAD</h1>
+    <p>Student | Web Developer | Tech Enthusiast</p>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a motivated student interested in web development and software
+        technologies. I enjoy learning new skills and building simple projects.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Academic Background</h2>
+    <ul>
+        <li>Diploma in Information Technology – Pimpri-Chinchwad Polytechnic,Pune</li>
+        <li>Higher Secondary – Shri Siddheshwar vidyalay,Beed</li>
+        <li>Currently Parsueing B.Tech – Dyaan Prasad Global University</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">C++</div>
+    </div>
+</section>
+
+<section id="interests">
+    <h2>Interests</h2>
+    <ul>
+        <li>Web Design</li>
+        <li>Programming</li>
+        <li>Content Creation</li>
+        <li>Reading Tech Blogs</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourname@gmail.com</p>
+    <p>Phone: 9876543210</p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Your Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
